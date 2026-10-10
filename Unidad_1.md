@@ -1,15 +1,23 @@
-# 📘 Unidad 1: Fundamentos de Base de Datos
+# 📘 Unidad 1: Fundamentos y Diseño de Bases de Datos
 
-Bienvenido al espacio de la Unidad 1. Selecciona una de las secciones a continuación para ver los diagramas o las actividades correspondientes.
+Bienvenido al espacio de la Unidad 1 de la materia **Base de Datos**. A continuación se presentan las secciones trabajadas en esta unidad.
 
 ---
 
-## 🗂️ Secciones de la Unidad
+## 📐 1. Diagramas de Modelo Entidad-Relación (MER)
 
-<div align="center">
+El **Modelo Entidad-Relación (MER)** es una herramienta fundamental para el diseño conceptual de bases de datos. Permite representar la estructura lógica y las relaciones entre los diferentes objetos o entidades del mundo real que el sistema necesita almacenar.
 
-| 📊 **Diagramas de Modelo Relacional** | 📝 **Actividades** |
-| :---: | :---: |
-| <br><h1>📐</h1><br>Modelos ER, entidades, relaciones y esquemas.<br><br>👉 **[Ver Diagramas](./Unidad_1_Diagramas.md)** | <br><h1>✍️</h1><br>Ejercicios, tareas y prácticas de la unidad.<br><br>👉 **[Ver Actividades](./Unidad_1_Actividades.md)** |
+> 💡 **En esta sección se abordan:** La identificación de entidades, atributos, cardinalidades y la representación gráfica de esquemas relacionales trabajados en clase.
 
-</div>
+👉 **[Ver todos los diagramas de la unidad](./Unidad_1_Diagramas.md)**
+
+---
+
+## 📝 2. Actividades
+
+Espacio destinado para el registro de prácticas, talleres, tareas y ejercicios desarrollados a lo largo de esta primera unidad.
+
+👉 **[Ver actividades y prácticas](./Unidad_1_Actividades.md)**
+
+---
