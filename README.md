@@ -1,5 +1,6 @@
-# Universidad Nacional de Loja
-## Facultad para las Ingenierías
+# UNIVERSIDAD NACIONAL DE LOJA
+---
+## Carrera de Ciencias de la computacion
 
 ---
 
