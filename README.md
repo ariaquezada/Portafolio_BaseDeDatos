@@ -1,25 +1,24 @@
-Universidad Nacional de Loja
+# Universidad Nacional de Loja
+## Facultad para las Ingenierías
 
-Facultad para las Ingenierías
+---
 
-Estudiante: Ariana Arlette Quezada Fernández
+### **Información General**
 
-Docente: René Guamán
+* **Estudiante:** Ariana Arlette Quezada Fernández
+* **Docente:** René Guamán
+* **Materia:** Base de Datos
+* **Ciclo:** Tercer Ciclo
 
-Materia: Base de Datos
+---
 
-Ciclo: Tercer Ciclo
+## Contenido del Curso
 
-Secciones
+### 📂 Unidad 1
+* [Documento de la Unidad 1](./unidades/unidad1.md)
 
-Unidad 1
+### 📂 Unidad 2
+* *Contenido en desarrollo...*
 
-Ver documento de la Unidad 1
-
-Unidad 2
-
-(Próximamente)
-
-Unidad 3
-
-(Próximamente)
+### 📂 Unidad 3
+* *Contenido en desarrollo...*
