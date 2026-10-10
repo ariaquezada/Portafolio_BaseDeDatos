@@ -1,7 +1,6 @@
 # UNIVERSIDAD NACIONAL DE LOJA
 ---
 ## Carrera de Ciencias de la computacion
-
 ---
 
 ### **Información General**
