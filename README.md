@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://unl.edu.ec/sites/default/files/2022-09/logo.png" alt="Logo UNL" width="180"/>
+<img width="300" height="168" alt="image" src="https://github.com/user-attachments/assets/2fe6927b-c81d-4d45-b867-41de304d7180" />
 
 <!-- Título grande en color personalizado -->
 <img src="https://capsule-render.vercel.app/api?type=transparent&color=F75C7E&text=UNIVERSIDAD%20NACIONAL%20DE%20LOJA&fontSize=32&height=90" alt="UNL" />
