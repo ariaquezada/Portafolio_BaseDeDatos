@@ -116,7 +116,7 @@ De los camiones que llevan los camioneros, interesa conocer la matrícula, model
   * Si el propietario se da de alta en la clínica veterinaria, el familiar ya no interesa.
   * El familiar es contacto de un solo propietario.
 
-> <img width="6328" height="2688" alt="image" src="https://github.com/user-attachments/assets/e1c037ae-7fe8-421a-b770-776f686eb5ac" />
+> <img width="6328" height="2688" alt="image" src="https://github.com/user-attachments/assets/3fa6c9d3-5c35-40cd-a7df-c24708a0ba7a" />
 
 >
 > 
