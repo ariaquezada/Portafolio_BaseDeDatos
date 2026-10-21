@@ -67,7 +67,7 @@ Se desea crear una aplicación para la gestión de una tienda informática. La t
 
 > 📷 **Evidencia Diagrama ER:**
 >
-> ![Diagrama ER - Tienda Informática](./img/ejercicio6_tienda_informatica.png)
+> <img width="6268" height="2548" alt="image" src="https://github.com/user-attachments/assets/31b058aa-1121-4947-8a5e-3deeb808e07d" />
 
 ---
 
@@ -80,7 +80,7 @@ Se desea crear una aplicación para la gestión de una tienda informática. La t
 
 > 📷 **Evidencia Diagrama ER:**
 >
-> ![Diagrama ER - Discos Musicales](./img/ejercicio7_discos_musicales.png)
+> <img width="6208" height="2244" alt="image" src="https://github.com/user-attachments/assets/3e3f6eb9-907d-490f-9c7a-36d945a57a2f" />
 
 ---
 
