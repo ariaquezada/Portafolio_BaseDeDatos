@@ -13,7 +13,8 @@ Una biblioteca registra libros y autores. Un libro puede tener varios autores y 
 
 > 📷 **Evidencia Diagrama ER:**
 >
-> <img width="2196" height="1768" alt="image" src="https://github.com/user-attachments/assets/fb3287ed-83cd-4e43-ba1a-c13f97e0472a" />
+> <img width="2432" height="1768" alt="image" src="https://github.com/user-attachments/assets/053f9970-48cf-46e3-9eee-75e3ccaffd75" />
+
 
 ---
 
