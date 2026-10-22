@@ -23,7 +23,8 @@ Los clientes realizan pedidos que contienen varios platos con distinta cantidad.
 
 > 📷 **Evidencia Diagrama ER:**
 >
-> <img width="1088" height="538" alt="Pedidos_en_un_restaurante drawio" src="https://github.com/user-attachments/assets/ff195a60-ca9e-42a2-b351-0dede465471b" />
+> <img width="4368" height="2168" alt="image" src="https://github.com/user-attachments/assets/112c6b85-bb8a-460b-9297-17a6bd5831fa" />
+
 
 
 ---
@@ -33,7 +34,8 @@ Los pacientes solicitan citas; cada cita la atiende un médico a un paciente en 
 
 > 📷 **Evidencia Diagrama ER:**
 >
-> <img width="1278" height="668" alt="Clinica_medica drawio" src="https://github.com/user-attachments/assets/cdbe44be-14f9-444b-9988-fec55e4d495c" />
+> <img width="5128" height="2688" alt="image" src="https://github.com/user-attachments/assets/bc8475bf-6baa-4e3f-80a5-4e4e050db610" />
+
 
 
 ---
@@ -58,7 +60,8 @@ Una empresa discográfica necesita modelar los datos sobre sus diferentes recurs
 
 > 📷 **Evidencia Diagrama ER:**
 >
-> <img width="4168" height="1728" alt="image" src="https://github.com/user-attachments/assets/95072c4f-39c1-4b02-8abb-2d07a147406e" />
+> <img width="4168" height="2084" alt="image" src="https://github.com/user-attachments/assets/1cda67b6-c12a-44ba-92c0-e624223b8c6b" />
+
 
 
 ---
@@ -96,7 +99,8 @@ De los camiones que llevan los camioneros, interesa conocer la matrícula, model
 
 > 📷 **Evidencia Diagrama ER:**
 >
-> <img width="4888" height="3368" alt="image" src="https://github.com/user-attachments/assets/dc4140c6-26e6-4a1c-8c33-7f9a48c01843" />
+> <img width="4888" height="3368" alt="image" src="https://github.com/user-attachments/assets/1c46a3cc-41e9-43e5-addd-a9cdee813242" />
+
 
 
 ---
@@ -119,7 +123,8 @@ De los camiones que llevan los camioneros, interesa conocer la matrícula, model
   * Si el propietario se da de alta en la clínica veterinaria, el familiar ya no interesa.
   * El familiar es contacto de un solo propietario.
 
-> <img width="6328" height="2688" alt="image" src="https://github.com/user-attachments/assets/3fa6c9d3-5c35-40cd-a7df-c24708a0ba7a" />
+> <img width="6328" height="2688" alt="image" src="https://github.com/user-attachments/assets/53bae9e4-6ddf-443f-bf72-2757f4780a1f" />
+
 
 >
 > 
