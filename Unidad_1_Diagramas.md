@@ -43,7 +43,7 @@ Una aerolínea opera vuelos (cada uno con número, fecha, origen y destino), cad
 
 > 📷 **Evidencia Diagrama ER:**
 >
-> <img width="928" height="468" alt="Sistema de aerolineas drawio" src="https://github.com/user-attachments/assets/0735b2a3-056d-4e50-b51f-e500b9a15eac" />
+> <img width="3728" height="1888" alt="image" src="https://github.com/user-attachments/assets/a2fccd7a-d4c3-4c92-b1b5-d04c365c669f" />
 
 
 ---
