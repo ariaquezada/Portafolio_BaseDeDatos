@@ -1,8 +1,6 @@
-# 📐 Diagramas de Modelo Entidad-Relación (MER)
+# 📐 Diagramas de Modelo Entidad-Relación (MER) y Modelo Relacional
 
-En esta sección se presentan los modelos conceptuales trabajados durante la **Unidad 1**, detallando los requerimientos de cada problema y la evidencia gráfica correspondiente.
-
-> 📌 **Instrucción:** Agregar la evidencia gráfica (diagrama ER) correspondiente para cada uno de los siguientes ejercicios.
+En esta sección se presentan los modelos conceptuales y relacionales trabajados durante la **Unidad 1**, detallando los requerimientos de cada problema, la evidencia gráfica y su correspondiente esquema relacional.
 
 ---
 
@@ -15,6 +13,10 @@ Una biblioteca registra libros y autores. Un libro puede tener varios autores y 
 >
 > <img width="2432" height="1768" alt="image" src="https://github.com/user-attachments/assets/053f9970-48cf-46e3-9eee-75e3ccaffd75" />
 
+#### 🗃️ Modelo Relacional
+* **Socio** (`id_socio`)
+* **Libro** (fecha_retiro, fecha_devolucion, `id_socio`, `id_libro`)
+* **Autor** (`id_autor`, `id_libro`)
 
 ---
 
@@ -25,7 +27,12 @@ Los clientes realizan pedidos que contienen varios platos con distinta cantidad.
 >
 > <img width="4368" height="2168" alt="image" src="https://github.com/user-attachments/assets/112c6b85-bb8a-460b-9297-17a6bd5831fa" />
 
-
+#### 🗃️ Modelo Relacional
+* **Pedido** (precio, cantidad, `id_pedido`, `id_cliente`, `id_mesero`)
+* **Cliente** (`id_cliente`)
+* **Mesero** (`id_mesero`)
+* **Plato** (`id_plato`, precio_actual, `id_pedido`)
+* **Categoría** (`id_categoría`, `id_plato`)
 
 ---
 
@@ -36,7 +43,13 @@ Los pacientes solicitan citas; cada cita la atiende un médico a un paciente en 
 >
 > <img width="5128" height="2688" alt="image" src="https://github.com/user-attachments/assets/bc8475bf-6baa-4e3f-80a5-4e4e050db610" />
 
-
+#### 🗃️ Modelo Relacional
+* **Paciente** (`id_paciente`)
+* **Cita** (`id_cita`, fecha, hora, `id_paciente`, `id_médico`, `id_atiende`)
+* **Médico** (`id_médico`, `id_especialidad`)
+* **Especialidad** (`id_especialidad`)
+* **Receta** (`id`, dosis, duración)
+* **Medicamento** (`id_medicamento`, `id`)
 
 ---
 
@@ -47,6 +60,10 @@ Una aerolínea opera vuelos (cada uno con número, fecha, origen y destino), cad
 >
 > <img width="3728" height="1888" alt="image" src="https://github.com/user-attachments/assets/a2fccd7a-d4c3-4c92-b1b5-d04c365c669f" />
 
+#### 🗃️ Modelo Relacional
+* **Pasajeros** (`id`, número_asiento, tarifa)
+* **Vuelos** (`número`, fecha, origen, destino, `id_avión`)
+* **Avión** (`id_avión`)
 
 ---
 
@@ -54,15 +71,19 @@ Una aerolínea opera vuelos (cada uno con número, fecha, origen y destino), cad
 
 ### 🎵 Ejercicio 5: Empresa Discográfica
 Una empresa discográfica necesita modelar los datos sobre sus diferentes recursos según las siguientes características:
-* **Manager:** De cada mánager se almacena un identificador de manager y su nombre. Un manager representa a una serie de artistas.
-* **Artista:** Un artista es representado por un manager. De los artistas se almacena su nombre completo (usando un único atributo) y su NIF.
-* **Evento de promoción:** Los artistas participan en eventos de promoción para dar a conocer sus trabajos. En un evento de promoción pueden participar varios artistas. De un evento se almacena un identificador único, la fecha de celebración y el número de asistentes.
+- **Manager:** De cada mánager se almacena un identificador de manager y su nombre. Un manager representa a una serie de artistas.
+- **Artista:** Un artista es representado por un manager. De los artistas se almacena su nombre completo (usando un único atributo) y su NIF.
+- **Evento de promoción:** Los artistas participan en eventos de promoción para dar a conocer sus trabajos. En un evento de promoción pueden participar varios artistas. De un evento se almacena un identificador único, la fecha de celebración y el número de asistentes.
 
 > 📷 **Evidencia Diagrama ER:**
 >
 > <img width="4168" height="2084" alt="image" src="https://github.com/user-attachments/assets/1cda67b6-c12a-44ba-92c0-e624223b8c6b" />
 
-
+#### 🗃️ Modelo Relacional
+* **Manager** (`id`, nombre)
+* **Artista** (`NIF`, nombre, `id`)
+* **Evento** (`id`, fecha, asiste)
+* **Participa** (`NIF`, `id`)
 
 ---
 
@@ -73,20 +94,34 @@ Se desea crear una aplicación para la gestión de una tienda informática. La t
 >
 > <img width="6268" height="2548" alt="image" src="https://github.com/user-attachments/assets/4db007ab-c1dc-4861-a3e9-b17521e95317" />
 
+#### 🗃️ Modelo Relacional
+* **Cliente** (`id`, nombre, apellidos, dirección)
+* **Teléfono_celular** (teléfono, `id`)
+* **Producto** (`código`, descripción, precio, número_existencias)
+* **Compra** (fecha, `id`, `código`)
+* **Proveedor** (`identificador`, nombres, apellidos, dirección, provincia)
+* **Num_teléfono** (celular, `identificador`)
+* **Suministra** (`código`, `identificador`)
 
 ---
 
 ### 📀 Ejercicio 7: Discos Musicales
-* La tienda vende discos de diferentes géneros musicales y cantantes.
-* Cada género musical tiene un identificador.
-* Cada disco tiene título, género musical, precio y cantante.
-* De un cantante se registra el nombre y su país. Todo disco pertenece a un cantante y un cantante puede tener muchos discos. Además, un disco tiene un conjunto de canciones (identificador y título).
-* Un disco tiene muchas canciones y una canción puede estar en varios discos. Interesa conocer la posición de una canción en un determinado disco.
+- La tienda vende discos de diferentes géneros musicales y cantantes.
+- Cada género musical tiene un identificador.
+- Cada disco tiene título, género musical, precio y cantante.
+- De un cantante se registra el nombre y su país. Todo disco pertenece a un cantante y un cantante puede tener muchos discos. Además, un disco tiene un conjunto de canciones (identificador y título).
+- Un disco tiene muchas canciones y una canción puede estar en varios discos. Interesa conocer la posición de una canción en un determinado disco.
 
 > 📷 **Evidencia Diagrama ER:**
 >
 > <img width="6208" height="2244" alt="image" src="https://github.com/user-attachments/assets/3ca40e03-ab5a-4491-8353-b04510292226" />
 
+#### 🗃️ Modelo Relacional
+* **Disco** (`id`, título, precio, `id`, `identificador`)
+* **Género_Musical** (`id`)
+* **Cantante** (nombre, país, `identificador`)
+* **Canción** (`identificador`, título)
+* **Tiene** (`id`, `identificador`, posición)
 
 ---
 
@@ -101,30 +136,44 @@ De los camiones que llevan los camioneros, interesa conocer la matrícula, model
 >
 > <img width="4888" height="3368" alt="image" src="https://github.com/user-attachments/assets/1c46a3cc-41e9-43e5-addd-a9cdee813242" />
 
-
+#### 🗃️ Modelo Relacional
+* **Paquete** (`código`, descripción, dirección, `código`, `id_destinatario`, `cédula`)
+* **Provincia** (`código`, nombre)
+* **Destinatario** (`id_destinatario`, nombre, dirección)
+* **Camionero** (`cédula`, nombre, teléfono, dirección)
+* **Camión** (matrícula, modelo, potencia, tipo, `cédula`)
 
 ---
 
 ### 🐾 Ejercicio 9: Veterinaria
-* **Propietario:** Cédula, apellidos, nombres, dirección y teléfonos.
-* **Mascota:** Identificador, nombre, fecha de nacimiento y tipo.
+- **Propietario:** Cédula, apellidos, nombres, dirección y teléfonos.
+- **Mascota:** Identificador, nombre, fecha de nacimiento y tipo.
   * Un propietario puede llevar una o varias mascotas.
   * Una mascota la lleva uno y solo un propietario.
-* **Personal de la clínica:** Código, cédula y nombre.
+- **Personal de la clínica:** Código, cédula y nombre.
   * Se distingue a los **veterinarios** y **auxiliares** (pudiendo haber otros tipos).
   * **Veterinario:** Fecha de alta y especialidad.
   * **Auxiliares:** Base de cotización.
-* **Consultas:** Las mascotas pasan consulta con los veterinarios.
+- **Consultas:** Las mascotas pasan consulta con los veterinarios.
   * Un veterinario puede pasar consulta a ninguna o a varias mascotas.
   * Una misma mascota ha pasado consulta una o más veces en fechas diferentes con varios veterinarios.
   * Al pasar consulta se realiza un diagnóstico.
-* **Familiar de contacto:** Cada propietario tiene un familiar de contacto para casos de emergencia.
+- **Familiar de contacto:** Cada propietario tiene un familiar de contacto para casos de emergencia.
   * Se registra la cédula, nombre y teléfono.
   * Si el propietario se da de alta en la clínica veterinaria, el familiar ya no interesa.
   * El familiar es contacto de un solo propietario.
 
+> 📷 **Evidencia Diagrama ER:**
+>
 > <img width="6328" height="2688" alt="image" src="https://github.com/user-attachments/assets/53bae9e4-6ddf-443f-bf72-2757f4780a1f" />
 
-
->
-> 
+#### 🗃️ Modelo Relacional
+* **Propietario** (`cédula`, nombres, dirección)
+* **Teléfonos** (teléfono, `cédula`)
+* **Familiar** (`cédula`, nombres, `cédula`)
+* **Telf_familiar** (teléfono, `cédula`)
+* **Mascota** (fecha_nacimiento, nombre, `id`, tipo, `cédula`)
+* **Consulta** (fecha_atención, diagnóstico, `id`, `cédula`)
+* **Personal** (`cédula`, nombre, `código`)
+* **Veterinario** (`cédula`, nombre, `código`, fecha_alta, especialidad)
+* **Auxiliar** (`cédula`, nombre, `código`, base_cotización)
