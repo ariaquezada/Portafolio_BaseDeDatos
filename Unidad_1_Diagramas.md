@@ -30,8 +30,9 @@ Una biblioteca registra libros y autores. Un libro puede tener varios autores y 
  
 **Tablas:**
  
-> 📷 *(pendiente: captura de las tablas en DBeaver)*
- 
+> <img width="876" height="241" alt="image" src="https://github.com/user-attachments/assets/978a3242-8af1-471c-a493-62c38119c7d2" />
+
+
 **Código:**
  
 ```sql
