@@ -25,7 +25,8 @@ Una biblioteca registra libros y autores. Un libro puede tener varios autores y 
  
 **Diagrama:**
  
-> 📷 *(pendiente: captura del diagrama en DBeaver)*
+> <img width="885" height="255" alt="image" src="https://github.com/user-attachments/assets/22fe90da-65f0-4422-ba84-76f761283508" />
+
  
 **Tablas:**
  
@@ -76,11 +77,13 @@ Los clientes realizan pedidos que contienen varios platos con distinta cantidad.
  
 **Diagrama:**
  
-> 📷 *(pendiente: captura del diagrama en DBeaver)*
+> <img width="856" height="256" alt="image" src="https://github.com/user-attachments/assets/f9d38f43-eb28-4636-b25a-562b2c611eb7" />
+
  
 **Tablas:**
  
-> 📷 *(pendiente: captura de las tablas en DBeaver)*
+> <img width="915" height="242" alt="image" src="https://github.com/user-attachments/assets/3d2444b8-e23b-4647-a394-5dca0a5a01fa" />
+
  
 **Código:**
  
@@ -141,11 +144,13 @@ Los pacientes solicitan citas; cada cita la atiende un médico a un paciente en 
  
 **Diagrama:**
  
-> 📷 *(pendiente: captura del diagrama en DBeaver)*
+> <img width="856" height="216" alt="image" src="https://github.com/user-attachments/assets/9717b261-1775-47ee-9278-eb01e49a65ea" />
+
  
 **Tablas:**
  
-> 📷 *(pendiente: captura de las tablas en DBeaver)*
+> <img width="851" height="250" alt="image" src="https://github.com/user-attachments/assets/6e1dab91-f634-4456-99c6-c0c7df41ea7d" />
+
  
 **Código:**
  
@@ -212,11 +217,13 @@ Una aerolínea opera vuelos (cada uno con número, fecha, origen y destino), cad
  
 **Diagrama:**
  
-> 📷 *(pendiente: captura del diagrama en DBeaver)*
+> <img width="684" height="335" alt="image" src="https://github.com/user-attachments/assets/14caf886-e1e7-4f07-87b6-c170a6b19f17" />
+
  
 **Tablas:**
  
-> 📷 *(pendiente: captura de las tablas en DBeaver)*
+> <img width="941" height="276" alt="image" src="https://github.com/user-attachments/assets/e9cd2404-f998-4411-b429-3cca5eaa64f5" />
+
  
 **Código:**
  
@@ -275,11 +282,13 @@ Una empresa discográfica necesita modelar los datos sobre sus diferentes recurs
  
 **Diagrama:**
  
-> 📷 *(pendiente: captura del diagrama en DBeaver)*
+> <img width="941" height="450" alt="image" src="https://github.com/user-attachments/assets/a1eb2552-7091-44da-b2b1-ed9e013c17ec" />
+
  
 **Tablas:**
  
-> 📷 *(pendiente: captura de las tablas en DBeaver)*
+> <img width="941" height="256" alt="image" src="https://github.com/user-attachments/assets/d6589d76-9a56-49d9-a636-48a08d0f2920" />
+
  
 **Código:**
  
@@ -336,11 +345,13 @@ Se desea crear una aplicación para la gestión de una tienda informática. La t
  
 **Diagrama:**
  
-> 📷 *(pendiente: captura del diagrama en DBeaver)*
+> <img width="664" height="921" alt="image" src="https://github.com/user-attachments/assets/af737062-99b2-448b-9f17-2a575a93cad4" />
+
  
 **Tablas:**
  
-> 📷 *(pendiente: captura de las tablas en DBeaver)*
+> <img width="941" height="296" alt="image" src="https://github.com/user-attachments/assets/c73cb5de-375a-493f-bfd2-fcf740e22ac5" />
+
  
 **Código:**
  
@@ -425,11 +436,13 @@ CREATE TABLE suministra (
  
 **Diagrama:**
  
-> 📷 *(pendiente: captura del diagrama en DBeaver)*
+> <img width="920" height="639" alt="image" src="https://github.com/user-attachments/assets/8934eae8-5842-45d5-835c-9f19c593a801" />
+
  
 **Tablas:**
  
-> 📷 *(pendiente: captura de las tablas en DBeaver)*
+> <img width="941" height="278" alt="image" src="https://github.com/user-attachments/assets/bc2ee2d1-a130-4666-8858-72f2cbfcca43" />
+
  
 **Código:**
  
@@ -497,11 +510,13 @@ De los camiones que llevan los camioneros, interesa conocer la matrícula, model
  
 **Diagrama:**
  
-> 📷 *(pendiente: captura del diagrama en DBeaver)*
+> <img width="775" height="887" alt="image" src="https://github.com/user-attachments/assets/85395fb3-0fbf-4104-82f5-b8d7d4fb1274" />
+
  
 **Tablas:**
  
-> 📷 *(pendiente: captura de las tablas en DBeaver)*
+> <img width="941" height="258" alt="image" src="https://github.com/user-attachments/assets/4b57744c-9c0e-42cf-8052-e73b2965d911" />
+
  
 **Código:**
  
@@ -595,11 +610,13 @@ CREATE TABLE camion (
  
 **Diagrama:**
  
-> 📷 *(pendiente: captura del diagrama en DBeaver)*
+> <img width="1089" height="725" alt="image" src="https://github.com/user-attachments/assets/0b47b07f-cd90-4dd0-9323-b6fc7221dc6e" />
+
  
 **Tablas:**
  
-> 📷 *(pendiente: captura de las tablas en DBeaver)*
+> <img width="941" height="253" alt="image" src="https://github.com/user-attachments/assets/1258f953-6ef6-4b50-be44-342eba9e215a" />
+
  
 **Código:**
  
