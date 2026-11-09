@@ -55,94 +55,13 @@ Diseñar e implementar una base de datos relacional, mediante el modelo entidad-
 
 > *Nota: el diagrama original es una imagen. Aquí se transcribe como descripción y como diagrama Mermaid.*
 
-**Entidades y atributos** (el identificador `id` es la llave primaria de cada una):
-
-| Entidad | Atributos |
-|---|---|
-| INSTITUCION | **id**, nombre |
-| CANTON | **id**, nombre |
-| NIVEL_ALARMA | **id**, significado, color |
-| OPERADOR | **id**, nombre |
-| ALERTANTE | **id**, nombre, teléfono |
-| INCIDENTE | **id**, descripción, fecha, referencia, dirección emergencia, dirección alertante |
-
-**Relaciones y cardinalidades:**
-
-| Relación | Entidades | Cardinalidad |
-|---|---|---|
-| despacha | INSTITUCION – INCIDENTE | M:N |
-| ocurre en | CANTON – INCIDENTE | 1:N |
-| reporta | ALERTANTE – INCIDENTE | 1:N |
-| clasifica | NIVEL_ALARMA – INCIDENTE | 1:N |
-| atiende | OPERADOR – INCIDENTE | 1:N |
-
-```mermaid
-erDiagram
-    INSTITUCION }o--o{ INCIDENTE : despacha
-    CANTON ||--o{ INCIDENTE : "ocurre en"
-    ALERTANTE ||--o{ INCIDENTE : reporta
-    NIVEL_ALARMA ||--o{ INCIDENTE : clasifica
-    OPERADOR ||--o{ INCIDENTE : atiende
-
-    INSTITUCION {
-        int id PK
-        string nombre
-    }
-    CANTON {
-        int id PK
-        string nombre
-    }
-    NIVEL_ALARMA {
-        int id PK
-        string significado
-        string color
-    }
-    OPERADOR {
-        int id PK
-        string nombre
-    }
-    ALERTANTE {
-        int id PK
-        string nombre
-        string telefono
-    }
-    INCIDENTE {
-        int id PK
-        string descripcion
-        date fecha
-        string referencia
-        string direccion_emergencia
-        string direccion_alertante
-    }
-```
+<img width="1197" height="719" alt="image" src="https://github.com/user-attachments/assets/d223d137-2657-418e-8119-97845ec2f4b9" />
 
 *Figura 1. Diagrama entidad-relación del sistema de gestión de emergencias ECU 911.*
 
 ### 4.2. Modelo Relacional
+<img width="1123" height="490" alt="image" src="https://github.com/user-attachments/assets/ddc96767-08ed-424b-a3c5-82f300a3b951" />
 
-Notación: la llave primaria va subrayada en el original; aquí se marca con `PK` y las llaves foráneas con `FK`.
-
-```text
-Institucion  (id_institucion PK, nombre)
-
-Despacha     (id_institucion PK/FK -> Institucion,
-              id_incidente   PK/FK -> Incidente)
-
-Incidente    (id_incidente PK, direccion_alertante, referencia,
-              direccion_emergencia, fecha, descripcion,
-              id_canton       FK -> Canton,
-              id_nivelalarma  FK -> Nivel_alarma,
-              id_operador     FK -> Operador,
-              id_alertante    FK -> Alertante)
-
-Canton       (id_canton PK, nombre)
-
-Nivel_alarma (id_nivelalarma PK, significado, color)
-
-Operador     (id_operador PK, nombre)
-
-Alertante    (id_alertante PK, nombre)
-```
 
 *Figura 2. Modelo relacional del sistema de gestión de emergencias ECU 911.*
 
